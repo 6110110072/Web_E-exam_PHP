@@ -74,7 +74,8 @@ if (isset($_GET['name'])) {
             if (strpos($questionname, "+")) {
                 $questionname = str_replace("+", "%2B", $questionname);
             }
-            echo "<a href=" . "../Deletequestion_db.php?questionname=$questionname&coursename=$coursename" . "><button type=" . "submit" . " name=" . "questionname" . " class=" . "btn" . ">Delete</button></a><br>";
+            echo "&nbsp;&nbsp;&nbsp;&nbsp;<a href=" . "../Deletequestion_db.php?questionname=$questionname&coursename=$coursename" . "><button type=" . "submit" . " name=" . "questionname" . " class=" . "btn" . ">Delete</button></a><br>";
+            echo "<br>";
         }
         ?>
 

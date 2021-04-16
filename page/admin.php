@@ -97,10 +97,12 @@ if (isset($_GET['logout'])) {
 
         <?php endif ?>
 
+        <!-- show user -->
+        <?php include('../include/func_showusers.php'); ?>
+
         <!-- แสดง course -->
         <?php include('../include/func_showcourse.php'); ?>
 
-        <!-- show user -->
 
 
 

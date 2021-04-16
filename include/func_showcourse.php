@@ -1,4 +1,3 @@
-<div style="background: #ffffff; padding:10px;">
 
     <?php
     echo "<h2>All Course</h2><hr><br>";
@@ -18,5 +17,4 @@
     <div style="text-align: center">
         <a href="../page/AddCourse.php"><button type="submit" name="AddCourse" class="btn">AddCourse</button></a><br>
     </div>
-</div>
 <br>

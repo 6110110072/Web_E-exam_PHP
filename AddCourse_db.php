@@ -79,8 +79,8 @@
         mysqli_query($conn, $sql);
         $scorecourse = "ALTER TABLE user ADD $coursename varchar(100);";
         mysqli_query($conn, $scorecourse);
-        $notnull = "ALTER TABLE user MODIFY $coursename varchar(100) NOT NULL;";
-        mysqli_query($conn, $notnull);
+        $setDefault = "UPDATE user SET $coursename='0'";
+        mysqli_query($conn, $setDefault);
 
 
         if ($VideoStatus && $FileStatus) {
